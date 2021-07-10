@@ -29,3 +29,24 @@ The script will ask you for:
 * GitHub [OAuth Token with access to Repo](https://github.com/settings/tokens).
 
 It might take a few minutes until the CodePipeline job has finished and the EC2 Instance is able to answer your HTTP request.
+
+Looks something like this -
+
+```
+prasanjit@Prasanjits-Mac codepipeline-codedeploy-example % ./setup.sh
+Enter the Stack name:
+awslug
+Enter the GitHub repository:
+codepipeline-codedeploy-example
+Enter the GitHub owner:
+prasanjit-
+Enter the GitHub OAuth Token:
+ghx_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:879566836351:stack/awslug/da9b6d90-e14e-11eb-92cf-0e1cfc6fd327"
+}
+Creating the CloudFormation stack, this will take a few minutes ...
+Done! Send an HTTP request to the following URL, please.
+
+http://ec2-184-72-211-129.compute-1.amazonaws.com
+```
