@@ -1,6 +1,6 @@
 [![BINPIPE](https://img.shields.io/badge/BINPIPE-YouTube-red)](https://www.youtube.com/channel/UCPTgt4Wo0MAnuzNEEZlk90A?sub_confirmation=1)
 
-# Example of a Continuous Delivery pipeline with AWS CodePipeline and CodeDeploy
+# Example of a Continuous Delivery pipeline with AWS CodePipeline and CodeDeploy using CloudFormation
 
 Creating a simple Continuous Delivery pipeline allowing you to push changes from your GitHub repository to your EC2 Instances.
 
