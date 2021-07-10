@@ -20,7 +20,7 @@ Fork this repository.
 Use the `./setup.sh` script to create a Continuous Delivery pipeline.
 
 Note: The script will create a CloudFormation stack which launches an EC2 instance into the default VPC of your default region. 
-
+(Try using us-east-1a or change it in scripts, also change the bucketname as per your own s3 bucketname.)
 The script will ask you for:
 * GitHub repository
 * GitHub owner (username of individual or organisation)

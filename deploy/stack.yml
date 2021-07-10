@@ -284,13 +284,13 @@ Resources:
     Type: "AWS::Lambda::Function"
     Properties: 
       Code:
-        S3Bucket: 'codepipeline-codedeploy-example-lambda'
+        S3Bucket: 'codepipeline-codedeploy-example-lambda00'
         S3Key: 'v2.zip'
       FunctionName: 'codepipeline_http_test'
       Handler: 'index.handler'
       MemorySize: 128
       Role: !Sub '${LambdaIAMRole.Arn}'
-      Runtime: 'nodejs4.3'
+      Runtime: 'nodejs12.0'
       Timeout: 30
 Outputs:
   URL:
