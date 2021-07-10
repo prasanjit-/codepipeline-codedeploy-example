@@ -290,7 +290,7 @@ Resources:
       Handler: 'index.handler'
       MemorySize: 128
       Role: !Sub '${LambdaIAMRole.Arn}'
-      Runtime: 'nodejs12.0'
+      Runtime: 'nodejs12.x'
       Timeout: 30
 Outputs:
   URL:
